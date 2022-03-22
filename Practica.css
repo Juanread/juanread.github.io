@@ -1,0 +1,112 @@
+body{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 20px;
+}
+li{
+    list-style: none;
+    margin-right: 25px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+.Titular{
+    text-align: center;
+    margin-top: 200px;
+}
+h1{
+    font-size: 60px;
+    margin:0;
+
+}
+h2{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+a{
+   
+    font-size: 14px;
+    background: aqua;
+    color: black;
+    padding: 20px 30px 20px 30px;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background: url(foto.jpg);
+    height: 100vh;
+    background-size:cover;
+
+}
+.contenedor {
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+img.redimension{
+    width: 850;
+    height: 850;
+
+}
+
+/* Iniciamos pagina sobre informatica*/
+
+h3{
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+}
+
+.contenedor-informatica{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.contenedor-parrafo-y-boton {
+width: 42%;
+}
+
+
+.contenedor-parrafo-y-boton p {
+    font-size: 20px;
+}
+
+.contenedor-parrafo-y-boton a {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.contenedor-servicios {
+    display: flex;
+    flex-wrap: wrap;}
+    
+
+.Servicios {
+    width: 28%;
+}
+.violeta{
+    background: #75148B ;
+}
+.celeste{
+    background: #CB4197 ;
+}
+.Servicios{
+    width: 25%;
+    padding: 38px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-right: 25px;
+    color: #fff;
+}
